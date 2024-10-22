@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff0099;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ff0099;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 153, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.logo h1:hover {
+    box-shadow: 0 0 25px rgba(255, 0, 153, 0.8);
+}
+
+.logo p {
+    font-size: 1.8rem;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #ff0099;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #ff0099;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    color: #ff0099; /* Highlight color */
+    margin-right: 5px;
+}
+
+.contact-form {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff0099;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #ff0099;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.map-container {
+    margin-top: 20px;
+    margin-bottom: 100px; /* Add more margin for extra space */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.cta-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #ff0099;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
